@@ -10,9 +10,6 @@ class AppUI;
 
 typedef function<void(AppUI&)> command;
 
-// —амосто€тельное задание:
-//    создать команды '+', '-', '*', '/'
-
 // ”правл€ющий класс программы
 class AppUI {
     map<string,command> functions;
